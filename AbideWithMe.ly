@@ -18,11 +18,11 @@
   < d f > 2 < ees g > 4 < d aes' > 4 < ees g > 4 < f aes > 4 < ees > 4 
   < f aes > 4 < ees g > 2 < f aes > 2 < ees > 1
   }
-
+\relative c' {\clef bass \key ees\major \time 4/4 
   
 
 
-
+}
   >>
 
 }
