@@ -15,6 +15,28 @@
   < d f > 2 < ees g > 4 < d aes' > 4 < ees g > 4 < f aes > 4 < ees > 4 
   < f aes > 4 < ees g > 2 < f aes > 2 < ees > 1
   }
+  \addlyrics {
+  \set stanza = "1." A- bide with me! Fast falls the e- ven tide, The dark- ness
+  deep- ens Lord, with me a- bide! When oth- er help- ers  fail, and 
+  com- forts flee,  Help of the help- less, oh, a- bide with me!
+
+  }
+  \addlyrics {
+\set stanza = "2." Swift to its close ebbs out life's lit- tle day; 
+Earth's joys grow dim, it's glo- ries pass a- way; Change and de- cay
+in all a- round I see; O Thou, who chang- est not, a- bide with me!
+  }
+  \addlyrics {
+\set stanza = "3." I need Thy pres- ence ev- ery pass- ing hour, 
+What but Thy grace can foil the temp- ter's pow'r? Who, like Thy- self, 
+my guide and stay can be? Thro' cloud and sun- shine, oh, a- bide with me!
+  }
+
+  \addlyrics {
+\set stanza = "4." Hold Thou Thy cross be- fore my clos- ing eyes; 
+Shine thro' the gloom, and point me to the skies; Heav'n's morn- ing breaks, 
+and earth's vain shad- ows flee! In life, in death, O Lord, a- bide with me!
+  } 
 \relative c' {\key ees\major \clef bass
   < ees, bes' > 2 < bes bes' > 4  < bes aes' > 4 < c g' > 2 < g ees' > 2 
   < aes ees' > 4 < bes bes' > 4 < c bes' > < d bes' > 4 < ees bes' > 1 
@@ -26,6 +48,9 @@
   < c g' > 4 < aes c' > < bes bes' > 2 < bes aes' > 2 < ees g > 1
 
 }
+ 
+
+
 >>
   \layout {}
   \midi {}
