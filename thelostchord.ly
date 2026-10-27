@@ -6,7 +6,8 @@
 }
 
 \score {
- << \relative c' {\key ees\major \clef treble \time 4/4
+\new ChoirStaff
+ << \relative c' {\key ees\major \clef treble \time 4/4 
      < ees g > 2 < d g > 4 < d f > 4 < ees > 2 < ees bes' > < ees c' > 4 
   < d bes' > < ees bes' > < f aes > < ees g > 1 < bes ees g > 2 < ees aes > 4 
   < ees bes' > < ees c' > 2 < ees bes' > 2 < ees aes > 4 < f > 4 < ees g > 4 
@@ -46,12 +47,12 @@ and earth's vain shad- ows flee! In life, in death, O Lord, a- bide with me!
   < d > 4 < aes, c' > < bes c' >  < c c' > < c bes' > < f aes > 1
   < aes bes > 2 < g bes > 4 < f bes > < ees bes' >  < bes aes' > 4
   < c g' > 4 < aes c' > < bes bes' > 2 < bes aes' > 2 < ees g > 1
+  \bar "|." 
 
 }
  
-
-
 >>
+
   \layout {}
   \midi {}
 }
