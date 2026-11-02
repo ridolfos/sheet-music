@@ -11,7 +11,7 @@
  << 
 
  
- \new Staff
+ \new ChoirStaff
  \new Voice = "first"
  \relative { \clef treble \key a\major \time 4/4
     \voiceOne < a' > 1 < a > 2 < e > 4 < a > 4 < b > 2 < e, > 4 < e > 4 
@@ -27,7 +27,8 @@
   
   }
 
-  \relative c' { \voiceTwo 
+
+  \relative c' { \voiceTwo \clef treble
 \voiceTwo < cis > 1 < cis > 2 < e > 4 < cis > 4 < e > 2 < e > 4 < e > 4 
 < e > 2 < e > 4 < fis > 4 < e > 2. < cis > 4 < cis > 4 < dis > 4 < e > 4 
 < dis > 4 < e > 2 < e > 4 < e > 4 < e > 2 < dis > 4. < e > 8 < e > 2. 
@@ -40,7 +41,7 @@
 
 
 
-\new Staff
+\new ChoirStaff
   \relative c' { \clef bass \voiceThree \key a\major
 < a > 1 < a > 2 < a > 4 < a > 4 < gis > 2 < gis > 4 < gis > 4 < a > 4 
 < b > 4 < a > 4 < a > 4 < a > 2 < gis > 4 < a > 4 < a > 2 < b > 4 < b > 4
@@ -53,8 +54,8 @@
 
   }
   
-  \relative c' { \voiceFour \key a\major
-< a > 
+  \relative c' { \voiceFour \key a\major 
+
   }
  
 
@@ -62,6 +63,8 @@
   
 
 >>
+
+
   \layout {}
   \midi {}
 }
