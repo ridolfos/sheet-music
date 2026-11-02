@@ -9,9 +9,11 @@
  
 
  << 
+
+ 
  \new Staff
  \new Voice = "first"
- \relative { \key a\major \time 4/4
+ \relative { \clef treble \key a\major \time 4/4
     \voiceOne < a' > 1 < a > 2 < e > 4 < a > 4 < b > 2 < e, > 4 < e > 4 
     < cis' > 4 < b > 4 < cis > 4 < d >  < cis > 2 < b > 4 < a > 4 < a > 2
      < gis > 4 < fis > 4 < gis > 4 < a > 4 < b > 4 < cis > 4 < gis > 2 
@@ -24,20 +26,41 @@
      < a > 8 < a > 1
   
   }
+
   \relative c' { \voiceTwo 
 \voiceTwo < cis > 1 < cis > 2 < e > 4 < cis > 4 < e > 2 < e > 4 < e > 4 
-< e > 2 < e > 4 < fis > 4 < e > 2. < cis > 4 < cis > 
+< e > 2 < e > 4 < fis > 4 < e > 2. < cis > 4 < cis > 4 < dis > 4 < e > 4 
+< dis > 4 < e > 2 < e > 4 < e > 4 < e > 2 < dis > 4. < e > 8 < e > 2. 
+< e > 4 < e > 2 < e > 4 < e > 4 < e > 2 < e > 4 < e > 4 < e > 2 < e > 4 
+< fis > 4 < e > 2. r4 r1 r2 < e > 4 < a > 4 < a > 4 < gis > 4 < a > 4 
+< b > 4 < a > 2 < e > 4 < a > 4 < b > 4 < a > 4 < gis > 4 < fis> 4
+< e > 2 < e > 4 < a > 4 < a > 2 < gis > 4. < a > 8 < a > 1
 
 }
 
+
+
 \new Staff
-  \relative c' { \clef bass \voiceThree
+  \relative c' { \clef bass \voiceThree \key a\major
+< a > 1 < a > 2 < a > 4 < a > 4 < gis > 2 < gis > 4 < gis > 4 < a > 4 
+< b > 4 < a > 4 < a > 4 < a > 2 < gis > 4 < a > 4 < a > 2 < b > 4 < b > 4
+< b > 2 < e > 4 < cis > 4 < b > 2 < a > 4. < gis > 8 < gis > 2. < e > 4 
+< cis' > 2 < b > 4 < a > 4 < b > 2 < a > 4 < a > 4 < gis > 4 < a > 4 
+< cis > 4 < b > 4 < b > 4. < a > 8 < gis > 4 < a > 4 < a > 4 < gis > 4 
+< a > 4 < b > < a > 2 < e > 4 < cis' > 4 < cis > 4 < b > 4 < cis > 4 
+< d > 4 < cis > 2 < b > 4 < cis > 4 < d > 4 < cis > 4 < b > 4 < a > 4
+< b > 2 < a > 4 < fis' > 4 < e > 2 < d > 4. < cis > 8 < cis > 1
 
   }
-
-  \relative c' {  \voiceFour
-
+  
+  \relative c' { \voiceFour \key a\major
+< a > 
   }
+ 
+
+
+  
+
 >>
   \layout {}
   \midi {}
