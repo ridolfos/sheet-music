@@ -22,7 +22,9 @@
   
 \new Staff
 \relative c' {\clef treble \key des\major \time 9/8
-{ r8 < f aes > ~ < f aes > 2. < g aes > ~ < g aes > 4. 
+{ r8 < f aes > ~ < f aes > 2. < g aes > ~ < g aes > 4. < f aes > 2. ~ < f aes > 4.
+< ees ges > 2. ~ < ees ges > 4. < des ees > 2. < c ees > 4. < bes des > 2. < a c > 4.
+\clef bass < aes bes >2. ~ < ges bes > 4. < f aes > 2. < ees > 8 < aes > 8
 }
 }
 
