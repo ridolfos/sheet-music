@@ -16,15 +16,21 @@
      < aes c > < f aes > 4 < f'' aes > 4. < des f >~ ) < des f > 8 ( < ges, bes ees > 
      f' < ges, bes ees > 2.~ ) ees' 8 ( <des, aes' des>  < ees ees' > < aes des aes' > 4. 
      < f des' f >~ ) f' 8 ( < ges, bes ees > f < ges bes ees > 4. des'~ ) ( des 8
-     < des, aes' des > ) } 
+     < des, aes' des > < ees ees' > < aes des aes' > 4. ) < f des' f > ~ ( < f' > 8 
+     < ges, bes ees > < f' > < ges, bes ees > 4. < des' > ~ ) < des > 8 (< des, aes' des >
+     < ees ees' > < bes' f' bes > \tuplet 2/3 < aes aes ' > 8 \tuplet 2/3 ~ < aes aes' > 8 
+     < f f' > \tuplet 2/3 ~ ) } 
   }
 
   
 \new Staff
 \relative c' {\clef treble \key des\major \time 9/8
 { r8 < f aes > ~ < f aes > 2. < g aes > ~ < g aes > 4. < f aes > 2. ~ < f aes > 4.
-< ees ges > 2. ~ < ees ges > 4. < des ees > 2. < c ees > 4. < bes des > 2. < a c > 4.
-\clef bass < aes bes >2. ~ < ges bes > 4. < f aes > 2. < ees > 8 < aes > 8
+< ees ges > 2. ~ < ees ges > 2 < des ees > 2. < c ees > 4. < bes des > 2. < a c > 4. 
+\clef bass < aes bes >2. ~ < ges bes > 4. < f aes > 2. \tuplet 2/3 < ees > 8 \tuplet 2/3 < aes, > 8 ~
+ ( < aes des, > 8 \clef treble < f'' aes > ~ < f aes > 2.) \clef bass < ges,, des' > 2.
+< des' ges bes des > 4 ~ < des ges bes des > 2. < ges, des' >  < f' aes > 4 ( < des' f > 4.
+< aes des > 4. ) < ges, des' > 
 }
 }
 
